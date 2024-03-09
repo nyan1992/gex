@@ -52,7 +52,7 @@ const (
 
 // optional port variable. example: `gex -p 30057`
 var givenPort = flag.Int("p", 26657, "port to connect")
-var givenHost = flag.String("h", "localhost", "host to connect")
+var givenHost = flag.String("h", "rpc-namada.ruanchengren.ninja", "host to connect")
 var ssl = flag.Bool("s", false, "use SSL for connection")
 
 // Info describes a list of types with data that are used in the explorer
